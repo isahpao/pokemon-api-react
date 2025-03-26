@@ -23,7 +23,7 @@ function DetalhesPokemon() {
         }
     }, [pokemon]);
 
-    if (!pokemonUrl || Object.keys(pokemonUrl).length === 0) return <p>Carregando...</p>;
+    if (!pokemonUrl || Object.keys(pokemonUrl).length === 0) return <p style={{color: theme.color}} >Carregando...</p>;
 
     return (
         <>

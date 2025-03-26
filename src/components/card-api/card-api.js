@@ -70,7 +70,7 @@ useEffect(() => {
                             </div>
                         ))
                     ) : (
-                        <p>Carregando...</p>
+                        <p style={{color: theme.color}} >Carregando...</p>
                     )}
                 </div>
                     <button style={{color: theme.color, backgroundColor: theme.buttonBg, borderColor: theme.buttonColorBorder}} className="botaoVerMais botao" onClick={carregarMais}>Ver mais</button>
