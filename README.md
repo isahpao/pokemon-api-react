@@ -1,70 +1,101 @@
-# Getting Started with Create React App
+# 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### 
 
-## Available Scripts
+# 🏆 Pokemon API
 
-In the project directory, you can run:
+## 📌 Descrição
 
-### `npm start`
+Este projeto foi desenvolvido com o objetivo de criar uma aplicação SPA (Single Page Application) interativa para explorar a API de Pokémons. A aplicação permite que os usuários visualizem informações de diferentes Pokémons podendo alternar entre temas claro e escuro.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## ✨ Funcionalidades
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- 🌙 **Modo Dark/Light:** O usuário pode alternar entre temas claro e escuro.
+- 🎴 **Cartões Dinâmicos:** Exibição de informações obtidas de uma API externa.
+- 🔍 **Navegação Simples:** Implementação de rotas com React Router.
+- 🎨 **Estilização Responsiva:** Adaptação para diferentes tamanhos de tela.
+- ⚡ **Performance Otimizada:** Atualizações rápidas sem recarregar a página.
+- 📂 **Gerenciamento de Estado:** Utilização de Context API e useState para gerenciar os dados da aplicação.
 
-### `npm test`
+## 🛠️ Tecnologias Utilizadas
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+As principais ferramentas utilizadas no projeto foram:
 
-### `npm run build`
+- **React.js** → Escolhido pela sua flexibilidade e eficiência na construção de interfaces dinâmicas.
+- **React Router** → Para a criação de rotas e navegação entre páginas.
+- **Context API** → Para gerenciamento de estado global, permitindo a troca de temas.
+- **CSS (Media Queries)** → Para garantir um design responsivo e agradável em diferentes dispositivos.
+- **CSS Modules →** Modularização do CSS para manter estilos encapsulados e evitar sobreposição indesejada.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🧠 Decisões de Desenvolvimento
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Durante o planejamento e execução, algumas decisões foram tomadas para otimizar o projeto:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. **Uso do Context API para o tema** → Para evitar o prop drilling e tornar a troca de temas mais eficiente.
+2. **Consumo de API externa** → Para obter dados dinâmicos e tornar a aplicação mais realista.
+3. **Componentização** → Separação de diferentes partes da interface em componentes reutilizáveis, facilitando a manutenção do código.
+4. **Estilização via CSS e inline styles** → Para maior controle e adaptação das cores no modo dark/light.
 
-### `npm run eject`
+## 🔗  **Demonstração Online:** [Acesse aqui](https://seu-projeto.vercel.app/)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 📷 Preview
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🚀 Como Rodar o Projeto
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Para testar o projeto localmente, siga os passos abaixo:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### **1️⃣ Clone o repositório**
 
-## Learn More
+```bash
+bash
+CopiarEditar
+git clone https://github.com/seu-usuario/seu-repositorio.git
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### **2️⃣ Acesse a pasta do projeto**
 
-### Code Splitting
+```bash
+bash
+CopiarEditar
+cd nome-do-projeto
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```
 
-### Analyzing the Bundle Size
+### **3️⃣ Instale as dependências**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```bash
+bash
+CopiarEditar
+npm install
 
-### Making a Progressive Web App
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+ou
 
-### Advanced Configuration
+```bash
+bash
+CopiarEditar
+yarn install
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+```
 
-### Deployment
+### **4️⃣ Execute o projeto**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+```bash
+bash
+CopiarEditar
+npm start
 
-### `npm run build` fails to minify
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+ou
+
+```bash
+bash
+CopiarEditar
+yarn start
+
+```
+
+Agora, basta abrir o navegador e acessar `http://localhost:3000/`.

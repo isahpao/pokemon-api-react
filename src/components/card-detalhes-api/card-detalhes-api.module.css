@@ -1,0 +1,52 @@
+.containerCardDetalhesApi{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+
+.containerDetalhes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center; 
+    background-color: white;  
+    border-radius: 12px;
+    padding: 40px;
+    border: 2px solid #316AB2;
+    }
+
+p{
+    list-style: none;
+    color: #316AB2;
+    font-weight: bold;
+    font-family: "VT323", monospace;
+    margin: 0 0 20px 0;
+    text-align: center;
+}
+
+ul, li, h1, h2 {
+    list-style: none;
+    color: #316AB2;
+    font-family: "VT323", monospace;
+    text-align: center;
+    font-weight: bold;
+}
+
+ul, li {
+    font-size: 20px;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+.imgDetalhes{
+    width: 50%;
+    text-align: center;
+}

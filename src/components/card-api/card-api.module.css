@@ -1,0 +1,56 @@
+.containerOutroCard{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.outroCard{
+    width: 60%;
+    height: 80%;
+}
+
+.containerInfos{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; 
+    justify-content: center;
+}
+
+.containerInfosDetalhes{
+    min-width: 150px; 
+    text-align: center;
+    border: 2px solid #316AB2;
+    padding: 10px;
+    border-radius: 5px;
+    background: white;
+    color: #316AB2;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: "VT323", monospace;
+}
+
+.botaoVerDetalhes{
+    background-color: #FFCB05;
+    border: 2px solid #316AB2;
+    color: #316AB2;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: bold;
+    padding: 4px 8px;
+    cursor: pointer;
+    border-radius: 12px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-family: "VT323", monospace;
+}
+
+img.imgPokemonOutroCard{
+    width: 80%;
+}
+
+
+
