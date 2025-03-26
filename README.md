@@ -36,9 +36,11 @@ Durante o planejamento e execução, algumas decisões foram tomadas para otimiz
 3. **Componentização** → Separação de diferentes partes da interface em componentes reutilizáveis, facilitando a manutenção do código.
 4. **Estilização via CSS e inline styles** → Para maior controle e adaptação das cores no modo dark/light.
 
-## 🔗  **Demonstração Online:** [Acesse aqui](https://seu-projeto.vercel.app/)
+## 🔗  **Demonstração Online:** [Acesse aqui](https://pokemon-api-react-xi.vercel.app/)
 
-## 📷 Preview
+
+## 📷 [Preview](https://github.com/isahpao/pokemon-api-react/blob/main/public/images/download.png?raw=true)
+
 
 ## 🚀 Como Rodar o Projeto
 
