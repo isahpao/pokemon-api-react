@@ -2,7 +2,8 @@
 
 ### 
 
-# 🏆 Pokemon API
+# 🐱 Pokemon API
+
 
 ## 📌 Descrição
 
@@ -35,6 +36,7 @@ Durante o planejamento e execução, algumas decisões foram tomadas para otimiz
 2. **Consumo de API externa** → Para obter dados dinâmicos e tornar a aplicação mais realista.
 3. **Componentização** → Separação de diferentes partes da interface em componentes reutilizáveis, facilitando a manutenção do código.
 4. **Estilização via CSS e inline styles** → Para maior controle e adaptação das cores no modo dark/light.
+
 
 ## 🔗  **Demonstração Online:** [Acesse aqui](https://pokemon-api-react-xi.vercel.app/)
 
